@@ -159,12 +159,12 @@ public class AddStudentTest {
         Student newStudent2 = new Student("", "Ana", 931, "ana@gmail.com");
         assertThrows(ValidationException.class, () -> this.service.addStudent(newStudent2));
     }
-//
-//    @Test
-//    public void testAddStudentNullId() {
-//        Student newStudent3 = new Student(null, "Ana", 931, "ana@gmail.com");
-//        assertThrows(ValidationException.class, () -> this.service.addStudent(newStudent3));
-//    }
+
+    @Test
+    public void testAddStudentNullId() {
+        Student newStudent3 = new Student(null, "Ana", 931, "ana@gmail.com");
+        assertThrows(ValidationException.class, () -> this.service.addStudent(newStudent3));
+    }
 
     /**
      * BVA Test case

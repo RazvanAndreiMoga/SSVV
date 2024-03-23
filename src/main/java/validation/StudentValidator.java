@@ -11,10 +11,10 @@ public class StudentValidator implements Validator<Student> {
      */
     @Override
     public void validate(Student entity) throws ValidationException {
-        if(entity.getID().equals("")){
-            throw new ValidationException("Id incorect!");
-        }
         if(entity.getID() == null){
+            throw new ValidationException("Id incorect!"); //modified the order of the if conditions, now we first check if it is null before checking equals()
+        }
+        if(entity.getID().equals("")){
             throw new ValidationException("Id incorect!");
         }
         if(entity.getNume() == ""){

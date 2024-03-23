@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ssvv.AddStudentTest" time="0.255" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ssvv.AddStudentTest" time="0.323" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\razva\.jdks\corretto-11.0.21\bin"/>
-    <property name="sun.java.command" value="C:\Users\razva\AppData\Local\Temp\surefire12158853387444510183\surefirebooter4122921241345535249.jar C:\Users\razva\AppData\Local\Temp\surefire12158853387444510183 2024-03-23T15-58-05_193-jvmRun1 surefire2109168073999053566tmp surefire_012369483474068452796tmp"/>
+    <property name="sun.java.command" value="C:\Users\razva\AppData\Local\Temp\surefire15979875413934025284\surefirebooter9111369077124694172.jar C:\Users\razva\AppData\Local\Temp\surefire15979875413934025284 2024-03-23T16-58-46_862-jvmRun1 surefire17854378049839084136tmp surefire_010150730998654661656tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\SSVV\ssvv\target\test-classes;C:\SSVV\ssvv\target\classes;C:\Users\razva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\razva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\razva\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\razva\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\razva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\razva\AppData\Local\Temp\surefire12158853387444510183\surefirebooter4122921241345535249.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\razva\AppData\Local\Temp\surefire15979875413934025284\surefirebooter9111369077124694172.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.21+9-LTS"/>
@@ -63,17 +63,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAddStudentValidEmail" classname="ssvv.AddStudentTest" time="0.152"/>
-  <testcase name="testAddStudentValidGroup" classname="ssvv.AddStudentTest" time="0.006"/>
-  <testcase name="testAddStudentDuplicate" classname="ssvv.AddStudentTest" time="0.007"/>
+  <testcase name="testAddStudentValidEmail" classname="ssvv.AddStudentTest" time="0.213"/>
+  <testcase name="testAddStudentValidGroup" classname="ssvv.AddStudentTest" time="0.016"/>
+  <testcase name="testAddStudentDuplicate" classname="ssvv.AddStudentTest" time="0.008"/>
   <testcase name="testAddStudentNullName" classname="ssvv.AddStudentTest" time="0.004"/>
   <testcase name="testAddStudentValidId" classname="ssvv.AddStudentTest" time="0.007"/>
-  <testcase name="testAddStudentInvalidGroup" classname="ssvv.AddStudentTest" time="0.005"/>
-  <testcase name="testAddStudentEmptyName" classname="ssvv.AddStudentTest" time="0.003"/>
-  <testcase name="testAddStudentValidName" classname="ssvv.AddStudentTest" time="0.007"/>
-  <testcase name="testAddStudentEmptyEmail" classname="ssvv.AddStudentTest" time="0.004"/>
-  <testcase name="testAddStudentNonDuplicate" classname="ssvv.AddStudentTest" time="0.008"/>
-  <testcase name="testAddStudentGroupLowerBVABound" classname="ssvv.AddStudentTest" time="0.007"/>
-  <testcase name="testAddStudentEmptyId" classname="ssvv.AddStudentTest" time="0.004"/>
-  <testcase name="testAddStudentNullEmail" classname="ssvv.AddStudentTest" time="0.003"/>
+  <testcase name="testAddStudentInvalidGroup" classname="ssvv.AddStudentTest" time="0.004"/>
+  <testcase name="testAddStudentEmptyName" classname="ssvv.AddStudentTest" time="0.002"/>
+  <testcase name="testAddStudentValidName" classname="ssvv.AddStudentTest" time="0.005"/>
+  <testcase name="testAddStudentEmptyEmail" classname="ssvv.AddStudentTest" time="0.005"/>
+  <testcase name="testAddStudentNonDuplicate" classname="ssvv.AddStudentTest" time="0.007"/>
+  <testcase name="testAddStudentGroupLowerBVABound" classname="ssvv.AddStudentTest" time="0.006"/>
+  <testcase name="testAddStudentEmptyId" classname="ssvv.AddStudentTest" time="0.003"/>
+  <testcase name="testAddStudentNullEmail" classname="ssvv.AddStudentTest" time="0.004"/>
+  <testcase name="testAddStudentNullId" classname="ssvv.AddStudentTest" time="0.001"/>
 </testsuite>
