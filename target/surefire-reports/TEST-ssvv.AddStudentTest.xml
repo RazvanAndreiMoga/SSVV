@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ssvv.AddStudentTest" time="0.255" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\SSVV\ssvv\target\test-classes;C:\SSVV\ssvv\target\classes;C:\Users\razva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\razva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\razva\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\razva\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\razva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="user.country.format" value="150"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\razva\.jdks\corretto-11.0.21\bin"/>
+    <property name="sun.java.command" value="C:\Users\razva\AppData\Local\Temp\surefire12158853387444510183\surefirebooter4122921241345535249.jar C:\Users\razva\AppData\Local\Temp\surefire12158853387444510183 2024-03-23T15-58-05_193-jvmRun1 surefire2109168073999053566tmp surefire_012369483474068452796tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\SSVV\ssvv\target\test-classes;C:\SSVV\ssvv\target\classes;C:\Users\razva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\razva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\razva\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\razva\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\razva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\razva\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\razva"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Users\razva\.jdks\corretto-11.0.21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\SSVV\ssvv"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\razva\AppData\Local\Temp\surefire12158853387444510183\surefirebooter4122921241345535249.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS"/>
+    <property name="user.name" value="razva"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.21.9.1"/>
+    <property name="localRepository" value="C:\Users\razva\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\razva\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="C:\SSVV\ssvv"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\razva\.jdks\corretto-11.0.21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\flutter\bin\;C:\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\swipl\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.0\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\GDAL;C:\Users\razva\AppData\Local\Microsoft\WindowsApps;C:\Users\razva\AppData\Local\GitHubDesktop\bin;C:\Users\razva\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\razva\AppData\Local\Microsoft\WindowsApps;C:\Users\razva\.dotnet\tools;C:\Users\razva\AppData\Roaming\npm;C:\Users\razva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python310;C:\OSGeo4W\bin;C:\Users\razva\AppData\Roaming\Python;C:\php;C:\Gradle\gradle-8.1.1\bin;C:\Program Files\Java\jdk-19\bin;C:\Users\razva\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\razva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\Users\razva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\Dev-Cpp\bin;C:\GnuWin32\bin;C:\Python311\scripts;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\razva\AppData\Local\Microsoft\WindowsApps;C:\Users\razva\AppData\Local\GitHubDesktop\bin;C:\Users\razva\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\razva\AppData\Local\Microsoft\WindowsApps;C:\Users\razva\.dotnet\tools;C:\Users\razva\AppData\Roaming\npm;C:\Users\razva\AppData\Local\Programs\Microsoft VS Code\bin;C:\flutter\bin\;C:\tools\dart-sdk\bin;C:\Users\razva\AppData\Local\Pub\Cache\bin;C:\Users\razva\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\razva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\Users\razva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\GnuWin32\bin;C:\Dev-Cpp\bin;C:\Python311\;C:\Python311\scripts;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.21+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testAddStudentValidEmail" classname="ssvv.AddStudentTest" time="0.152"/>
+  <testcase name="testAddStudentValidGroup" classname="ssvv.AddStudentTest" time="0.006"/>
+  <testcase name="testAddStudentDuplicate" classname="ssvv.AddStudentTest" time="0.007"/>
+  <testcase name="testAddStudentNullName" classname="ssvv.AddStudentTest" time="0.004"/>
+  <testcase name="testAddStudentValidId" classname="ssvv.AddStudentTest" time="0.007"/>
+  <testcase name="testAddStudentInvalidGroup" classname="ssvv.AddStudentTest" time="0.005"/>
+  <testcase name="testAddStudentEmptyName" classname="ssvv.AddStudentTest" time="0.003"/>
+  <testcase name="testAddStudentValidName" classname="ssvv.AddStudentTest" time="0.007"/>
+  <testcase name="testAddStudentEmptyEmail" classname="ssvv.AddStudentTest" time="0.004"/>
+  <testcase name="testAddStudentNonDuplicate" classname="ssvv.AddStudentTest" time="0.008"/>
+  <testcase name="testAddStudentGroupLowerBVABound" classname="ssvv.AddStudentTest" time="0.007"/>
+  <testcase name="testAddStudentEmptyId" classname="ssvv.AddStudentTest" time="0.004"/>
+  <testcase name="testAddStudentNullEmail" classname="ssvv.AddStudentTest" time="0.003"/>
+</testsuite>
