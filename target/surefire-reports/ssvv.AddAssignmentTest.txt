@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: ssvv.AddAssignmentTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.284 s <<< FAILURE! - in ssvv.AddAssignmentTest
+testAddAssignmentNullID  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <validation.ValidationException> but was: <java.lang.NullPointerException>
+	at ssvv.AddAssignmentTest.testAddAssignmentNullID(AddAssignmentTest.java:68)
+Caused by: java.lang.NullPointerException
+	at ssvv.AddAssignmentTest.lambda$testAddAssignmentNullID$1(AddAssignmentTest.java:68)
+	at ssvv.AddAssignmentTest.testAddAssignmentNullID(AddAssignmentTest.java:68)
+

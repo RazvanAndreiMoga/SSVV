@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ssvv.AddStudentTest" time="0.066" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ssvv.AddAssignmentTest" time="0.284" tests="9" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,18 +63,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAddStudentValidEmail" classname="ssvv.AddStudentTest" time="0"/>
-  <testcase name="testAddStudentValidGroup" classname="ssvv.AddStudentTest" time="0"/>
-  <testcase name="testAddStudentDuplicate" classname="ssvv.AddStudentTest" time="0.005"/>
-  <testcase name="testAddStudentNullName" classname="ssvv.AddStudentTest" time="0.004"/>
-  <testcase name="testAddStudentValidId" classname="ssvv.AddStudentTest" time="0.005"/>
-  <testcase name="testAddStudentInvalidGroup" classname="ssvv.AddStudentTest" time="0.004"/>
-  <testcase name="testAddStudentEmptyName" classname="ssvv.AddStudentTest" time="0.003"/>
-  <testcase name="testAddStudentValidName" classname="ssvv.AddStudentTest" time="0.005"/>
-  <testcase name="testAddStudentEmptyEmail" classname="ssvv.AddStudentTest" time="0.004"/>
-  <testcase name="testAddStudentNonDuplicate" classname="ssvv.AddStudentTest" time="0.01"/>
-  <testcase name="testAddStudentGroupLowerBVABound" classname="ssvv.AddStudentTest" time="0.007"/>
-  <testcase name="testAddStudentEmptyId" classname="ssvv.AddStudentTest" time="0.004"/>
-  <testcase name="testAddStudentNullEmail" classname="ssvv.AddStudentTest" time="0.002"/>
-  <testcase name="testAddStudentNullId" classname="ssvv.AddStudentTest" time="0.003"/>
+  <testcase name="testAddAssignmentValidAssignment" classname="ssvv.AddAssignmentTest" time="0.195"/>
+  <testcase name="testAddAssignmentEmptyDescription" classname="ssvv.AddAssignmentTest" time="0.011"/>
+  <testcase name="testAddAssignmentDuplicateAssignment" classname="ssvv.AddAssignmentTest" time="0.003"/>
+  <testcase name="testAddAssignmentDeadlineTooLarge" classname="ssvv.AddAssignmentTest" time="0.003"/>
+  <testcase name="testAddAssignmentDeadlineTooSmall" classname="ssvv.AddAssignmentTest" time="0.004"/>
+  <testcase name="testAddAssignmentEmptyID" classname="ssvv.AddAssignmentTest" time="0.003"/>
+  <testcase name="testAddAssignmentReceivedTooLarge" classname="ssvv.AddAssignmentTest" time="0.003"/>
+  <testcase name="testAddAssignmentReceivedTooSmall" classname="ssvv.AddAssignmentTest" time="0.003"/>
+  <testcase name="testAddAssignmentNullID" classname="ssvv.AddAssignmentTest" time="0.015">
+    <failure message="Unexpected exception type thrown, expected: &lt;validation.ValidationException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <validation.ValidationException> but was: <java.lang.NullPointerException>
+	at ssvv.AddAssignmentTest.testAddAssignmentNullID(AddAssignmentTest.java:68)
+Caused by: java.lang.NullPointerException
+	at ssvv.AddAssignmentTest.lambda$testAddAssignmentNullID$1(AddAssignmentTest.java:68)
+	at ssvv.AddAssignmentTest.testAddAssignmentNullID(AddAssignmentTest.java:68)
+]]></failure>
+  </testcase>
 </testsuite>
