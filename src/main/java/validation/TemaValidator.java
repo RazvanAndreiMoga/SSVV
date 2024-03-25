@@ -11,8 +11,11 @@ public class TemaValidator implements Validator<Tema> {
      */
     @Override
     public void validate(Tema entity) throws ValidationException {
-        if(entity.getID().equals("") || entity.getID() == null) {
-            throw new ValidationException("Numar tema invalid!");
+        if(entity.getID() == null){
+            throw new ValidationException("Id incorect!"); //modified the order of the if conditions, now we first check if it is null before checking equals()
+        }
+        if(entity.getID().equals("")){
+            throw new ValidationException("Id incorect!");
         }
         if(entity.getDescriere().equals("")){
             throw new ValidationException("Descriere invalida!");
