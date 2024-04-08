@@ -92,6 +92,15 @@ public class IntegrationTest {
     }
 
     @Test
+    public void testAddStudentAndAssignment() {
+        Student s1 = new Student("2925", "ana", 931, "ana@gmail.com");
+        Tema tema1 = new Tema("3245", "test", 1, 1);
+
+        assertNull(service.addStudent(s1));
+        assertNull(service.addTema(tema1));
+    }
+
+    @Test
     public void testAddTema() {
         Tema tema = new Tema("333", "a", 1, 1);
         assertNull(service.addTema(tema));
